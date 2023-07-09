@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px ;
+    padding: 0px;
+}
+body , html{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 0.953);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    
+}
+main>h1{
+    text-align: center;
+    color: rgba(0, 0, 255, 0.51);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.107);font-weight: bolder;
+    padding: 40px;
+    
+}
+.form{
+    background-color: rgba(209, 208, 208, 0.783);
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+   
+    
+}
+#botão{
+    width: 300px;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 255, 0.51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+   
+}
+#botão:hover{
+    background-color: rgba(0, 0, 139, 0.848);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#passe{
+    padding: 8px;
+    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.087);
+    color:rgba(86, 29, 255, 0.81) ;
+}
+#passe:hover{
+    color: rgba(0, 0, 139, 0.848);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+p{
+  font-size: 1.2em;
+}
+h3{
+    margin: auto;
+    width: 200px;
+    padding: 6px;
+    color: lime;
+    background-color:rgba(130, 129, 129, 0.783);
+    border-radius: 5px;
+    font-size: 1.0em;
+    
+}
+h3:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+   background-color: rgb(192, 191, 191);
+   
+}
+.sele{
+    display: inline-block;
+    border: none;
+    font-variant: small-caps;
+    background: none;
+}
+h5{
+    font-size: 1.0em;
+}
